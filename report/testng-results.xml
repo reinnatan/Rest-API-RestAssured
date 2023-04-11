@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-10T12:20:57Z" name="Sample test Suite" finished-at="2023-04-10T12:21:15Z" duration-ms="18586">
+  <suite started-at="2023-04-11T03:06:08Z" name="Sample test Suite" finished-at="2023-04-11T03:06:30Z" duration-ms="22287">
     <groups>
     </groups>
-    <test started-at="2023-04-10T12:20:57Z" name="Sample test" finished-at="2023-04-10T12:21:15Z" duration-ms="18586">
+    <test started-at="2023-04-11T03:06:08Z" name="Sample test" finished-at="2023-04-11T03:06:30Z" duration-ms="22287">
       <class name="APITesting">
-        <test-method signature="positiveTesttastyAPIAutoComplete()[pri:0, instance:APITesting@15b3e5b]" started-at="2023-04-10T12:20:57Z" name="positiveTesttastyAPIAutoComplete" finished-at="2023-04-10T12:21:00Z" duration-ms="3114" status="PASS">
+        <test-method signature="positiveTesttastyAPIAutoComplete()[pri:0, instance:APITesting@15b3e5b]" started-at="2023-04-11T03:06:08Z" name="positiveTesttastyAPIAutoComplete" finished-at="2023-04-11T03:06:11Z" duration-ms="2489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveTesttastyAPIAutoComplete -->
-        <test-method signature="negativeTestTastyAPIAutoCompleteWrongParam()[pri:1, instance:APITesting@15b3e5b]" started-at="2023-04-10T12:21:00Z" name="negativeTestTastyAPIAutoCompleteWrongParam" finished-at="2023-04-10T12:21:01Z" duration-ms="1136" status="PASS">
+        <test-method signature="negativeTestTastyAPIAutoCompleteWrongParam()[pri:1, instance:APITesting@15b3e5b]" started-at="2023-04-11T03:06:11Z" name="negativeTestTastyAPIAutoCompleteWrongParam" finished-at="2023-04-11T03:06:12Z" duration-ms="1206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTestTastyAPIAutoCompleteWrongParam -->
-        <test-method signature="negativeTestTastyAPIAutoCompleteHoHeaderKey()[pri:2, instance:APITesting@15b3e5b]" started-at="2023-04-10T12:21:01Z" name="negativeTestTastyAPIAutoCompleteHoHeaderKey" finished-at="2023-04-10T12:21:02Z" duration-ms="605" status="PASS">
+        <test-method signature="negativeTestTastyAPIAutoCompleteHoHeaderKey()[pri:2, instance:APITesting@15b3e5b]" started-at="2023-04-11T03:06:12Z" name="negativeTestTastyAPIAutoCompleteHoHeaderKey" finished-at="2023-04-11T03:06:12Z" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTestTastyAPIAutoCompleteHoHeaderKey -->
-        <test-method signature="positiveTestTastyAPIRecipeList()[pri:3, instance:APITesting@15b3e5b]" started-at="2023-04-10T12:21:02Z" name="positiveTestTastyAPIRecipeList" finished-at="2023-04-10T12:21:06Z" duration-ms="4771" status="PASS">
+        <test-method signature="positiveTestTastyAPIRecipeList()[pri:3, instance:APITesting@15b3e5b]" started-at="2023-04-11T03:06:12Z" name="positiveTestTastyAPIRecipeList" finished-at="2023-04-11T03:06:22Z" duration-ms="9239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveTestTastyAPIRecipeList -->
-        <test-method signature="negativeTestTastyAPIRecipeHoHeaderKey()[pri:4, instance:APITesting@15b3e5b]" started-at="2023-04-10T12:21:06Z" name="negativeTestTastyAPIRecipeHoHeaderKey" finished-at="2023-04-10T12:21:07Z" duration-ms="614" status="PASS">
+        <test-method signature="negativeTestTastyAPIRecipeHoHeaderKey()[pri:4, instance:APITesting@15b3e5b]" started-at="2023-04-11T03:06:22Z" name="negativeTestTastyAPIRecipeHoHeaderKey" finished-at="2023-04-11T03:06:22Z" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTestTastyAPIRecipeHoHeaderKey -->
-        <test-method signature="positiveTestListSimilarities()[pri:5, instance:APITesting@15b3e5b]" started-at="2023-04-10T12:21:07Z" name="positiveTestListSimilarities" finished-at="2023-04-10T12:21:11Z" duration-ms="3451" status="PASS">
+        <test-method signature="positiveTestListSimilarities()[pri:5, instance:APITesting@15b3e5b]" started-at="2023-04-11T03:06:22Z" name="positiveTestListSimilarities" finished-at="2023-04-11T03:06:26Z" duration-ms="3352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveTestListSimilarities -->
-        <test-method signature="negativeTestListSimilaritiesWrongRecipeIDParam()[pri:6, instance:APITesting@15b3e5b]" started-at="2023-04-10T12:21:11Z" name="negativeTestListSimilaritiesWrongRecipeIDParam" finished-at="2023-04-10T12:21:13Z" duration-ms="2131" status="PASS">
+        <test-method signature="negativeTestListSimilaritiesWrongRecipeIDParam()[pri:6, instance:APITesting@15b3e5b]" started-at="2023-04-11T03:06:26Z" name="negativeTestListSimilaritiesWrongRecipeIDParam" finished-at="2023-04-11T03:06:27Z" duration-ms="1493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTestListSimilaritiesWrongRecipeIDParam -->
-        <test-method signature="positiveTestTipList()[pri:7, instance:APITesting@15b3e5b]" started-at="2023-04-10T12:21:13Z" name="positiveTestTipList" finished-at="2023-04-10T12:21:14Z" duration-ms="1676" status="PASS">
+        <test-method signature="positiveTestTipList()[pri:7, instance:APITesting@15b3e5b]" started-at="2023-04-11T03:06:27Z" name="positiveTestTipList" finished-at="2023-04-11T03:06:29Z" duration-ms="2196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveTestTipList -->
-        <test-method signature="negativeTestTipListWrongParam()[pri:8, instance:APITesting@15b3e5b]" started-at="2023-04-10T12:21:14Z" name="negativeTestTipListWrongParam" finished-at="2023-04-10T12:21:15Z" duration-ms="1075" status="PASS">
+        <test-method signature="negativeTestTipListWrongParam()[pri:8, instance:APITesting@15b3e5b]" started-at="2023-04-11T03:06:29Z" name="negativeTestTipListWrongParam" finished-at="2023-04-11T03:06:30Z" duration-ms="1074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTestTipListWrongParam -->

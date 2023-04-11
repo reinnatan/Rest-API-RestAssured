@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="23.963" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.519" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/reinhart/Documents/eyos-rest-api-test/target/surefire/surefirebooter5433575236367868876.jar /Users/reinhart/Documents/eyos-rest-api-test/target/surefire 2023-04-10T19-20-56_719-jvmRun1 surefire2792467616517960437tmp surefire_08865867326662770304tmp"/>
+    <property name="sun.java.command" value="/Users/reinhart/Documents/eyos-rest-api-test/target/surefire/surefirebooter8571003687407899150.jar /Users/reinhart/Documents/eyos-rest-api-test/target/surefire 2023-04-11T10-06-08_247-jvmRun1 surefire11301765992111308742tmp surefire_017607831127502212582tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/reinhart/Documents/eyos-rest-api-test/target/test-classes:/Users/reinhart/Documents/eyos-rest-api-test/target/classes:/Users/reinhart/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/reinhart/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/reinhart/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/reinhart/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/reinhart/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/reinhart/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/reinhart/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/reinhart/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/reinhart/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/reinhart/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/reinhart/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/reinhart/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/reinhart/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/reinhart/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/reinhart/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/reinhart/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/reinhart/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/reinhart/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/reinhart/Documents/eyos-rest-api-test/target/surefire/surefirebooter5433575236367868876.jar"/>
+    <property name="surefire.real.class.path" value="/Users/reinhart/Documents/eyos-rest-api-test/target/surefire/surefirebooter8571003687407899150.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
@@ -55,16 +55,16 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="positiveTesttastyAPIAutoComplete" classname="APITesting" time="3.114">
+  <testcase name="positiveTesttastyAPIAutoComplete" classname="APITesting" time="2.495">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
 ]]></system-out>
   </testcase>
-  <testcase name="negativeTestTastyAPIAutoCompleteWrongParam" classname="APITesting" time="1.135"/>
-  <testcase name="negativeTestTastyAPIAutoCompleteHoHeaderKey" classname="APITesting" time="0.604"/>
-  <testcase name="positiveTestTastyAPIRecipeList" classname="APITesting" time="4.775"/>
-  <testcase name="negativeTestTastyAPIRecipeHoHeaderKey" classname="APITesting" time="0.611"/>
-  <testcase name="positiveTestListSimilarities" classname="APITesting" time="3.472"/>
-  <testcase name="negativeTestListSimilaritiesWrongRecipeIDParam" classname="APITesting" time="2.111"/>
-  <testcase name="positiveTestTipList" classname="APITesting" time="1.677"/>
-  <testcase name="negativeTestTipListWrongParam" classname="APITesting" time="1.075"/>
+  <testcase name="negativeTestTastyAPIAutoCompleteWrongParam" classname="APITesting" time="1.2"/>
+  <testcase name="negativeTestTastyAPIAutoCompleteHoHeaderKey" classname="APITesting" time="0.619"/>
+  <testcase name="positiveTestTastyAPIRecipeList" classname="APITesting" time="9.24"/>
+  <testcase name="negativeTestTastyAPIRecipeHoHeaderKey" classname="APITesting" time="0.608"/>
+  <testcase name="positiveTestListSimilarities" classname="APITesting" time="3.352"/>
+  <testcase name="negativeTestListSimilaritiesWrongRecipeIDParam" classname="APITesting" time="1.493"/>
+  <testcase name="positiveTestTipList" classname="APITesting" time="2.196"/>
+  <testcase name="negativeTestTipListWrongParam" classname="APITesting" time="1.074"/>
 </testsuite>
